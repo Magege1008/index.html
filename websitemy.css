@@ -1,0 +1,77 @@
+nav ul{
+    list-style: none;
+    padding: 3px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(55, 0, 255);
+}
+nav ul li{
+    margin: 0 5%;
+}
+nav ul li a{
+    color:white;
+    text-decoration:rgba(137, 43, 226, 0.495);
+    padding: 15px 25px;
+    display: block;
+    transition: backgroung-color 0.3s ease, transform 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: rgb(17, 255, 0);
+    transform: scale(1.1);
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 30%;
+    padding: 10px;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    background-color: yellowgreen;
+    color: black;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom:  0;
+}
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display:;
+    height: 100vh;
+}
+centre-login{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    text-align: center;
+}
+header{
+    position:fixed;
+    top: 0;
+    width: 100%; text-align: center;
+    background-color: none;
+}
+img{
+    width: 100%;
+    height: 420px;
+    display: block;
+    margin-top: 1px;
+}
+hero{
+    background-image:url('../../Pictures/Screenshot_20250526-212029 (1).png) ';
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
